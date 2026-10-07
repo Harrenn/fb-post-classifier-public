@@ -1,0 +1,38 @@
+# Local environments, caches and editor files
+.venv/
+venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+.vscode/
+.idea/
+
+# Credentials and configuration
+.env
+.env.*
+!.env.example
+api keys/
+api keys.txt
+google gemini api key.txt
+*.pem
+*.key
+credentials/
+secrets/
+
+# Source datasets and generated results
+*.csv
+*.xlsx
+*.xls
+*.jsonl
+*.ndjson
+*.log
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
+**/cache/
+Brightdata/**/output/
+.canva_assets/
